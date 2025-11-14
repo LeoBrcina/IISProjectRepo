@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element name="Profiles" xmlns="http://relaxng.org/ns/structure/1.0">
+	<zeroOrMore>
+		<element name="Profile">
+			<element name="FirstName">
+				<text/>
+			</element>
+			<element name="LastName">
+				<text/>
+			</element>
+			<element name="PublicIdentifier">
+				<text/>
+			</element>
+			<element name="TitleV2">
+				<text/>
+			</element>
+			<element name="TextActionTarget">
+				<text/>
+			</element>
+
+			<optional>
+				<element name="Subtitle">
+					<text/>
+				</element>
+			</optional>
+
+			<optional>
+				<element name="SubtitleV2">
+					<text/>
+				</element>
+			</optional>
+
+			<optional>
+				<element name="IsCreator">
+					<text/>
+				</element>
+			</optional>
+
+			<optional>
+				<element name="ProfilePictures">
+					<zeroOrMore>
+						<element name="ProfilePicture">
+							<element name="Width">
+								<text/>
+							</element>
+							<element name="Height">
+								<text/>
+							</element>
+							<element name="Url">
+								<text/>
+							</element>
+						</element>
+					</zeroOrMore>
+				</element>
+			</optional>
+		</element>
+	</zeroOrMore>
+</element>

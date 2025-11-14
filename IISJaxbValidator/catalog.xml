@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Algebra%20Projects/IISJaxbValidator/Schemas/profile.xsd" uri="xml-resources/jaxb/ProfileBinding/profile.xsd"/>
+</catalog>

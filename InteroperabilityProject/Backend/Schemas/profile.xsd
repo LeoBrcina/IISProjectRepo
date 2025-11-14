@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="Profiles">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Profile" maxOccurs="unbounded" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="FirstName" type="xs:string"/>
+							<xs:element name="LastName" type="xs:string"/>
+							<xs:element name="PublicIdentifier" type="xs:string"/>
+							<xs:element name="TitleV2" type="xs:string"/>
+							<xs:element name="TextActionTarget" type="xs:string"/>
+							<xs:element name="Subtitle" type="xs:string" minOccurs="0"/>
+							<xs:element name="SubtitleV2" type="xs:string" minOccurs="0"/>
+							<xs:element name="IsCreator" type="xs:boolean" minOccurs="0"/>
+							<xs:element name="ProfilePictures" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ProfilePicture" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Width" type="xs:int"/>
+													<xs:element name="Height" type="xs:int"/>
+													<xs:element name="Url" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>
