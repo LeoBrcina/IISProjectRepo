@@ -20,8 +20,6 @@ All credentials have been removed.
 
 ## 📁 Project Structure
 
-(Ignore syntax highlighting — this is intentionally plain text to avoid breaking the main block.)
-
 IISProjectRepo/
 │
 ├── InteroperabilityProject/          # Main backend (REST, SOAP, DB, WPF)
