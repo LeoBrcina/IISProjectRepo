@@ -1,4 +1,4 @@
-# 📘 IIS Project – Interoperability & Internet Services  
+# 📘 IIS Project – Interoperability of Information Systems  
 ### *(XSD & RNG Validation · REST API · SOAP · JAXB · XML-RPC · WPF Client)*
 
 This repository contains the complete IIS (Interoperability & Internet Services) course project, which includes:
